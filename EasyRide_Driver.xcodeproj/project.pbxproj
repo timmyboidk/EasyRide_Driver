@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6FC794D42E41E1D2006EC05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FC794BE2E41E1D0006EC05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FC794C52E41E1D0006EC05D;
+			remoteInfo = EasyRide_Driver;
+		};
+		6FC794DE2E41E1D2006EC05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FC794BE2E41E1D0006EC05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FC794C52E41E1D0006EC05D;
+			remoteInfo = EasyRide_Driver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FC794C62E41E1D0006EC05D /* EasyRide_Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyRide_Driver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC794D32E41E1D2006EC05D /* EasyRide_DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyRide_DriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC794DD2E41E1D2006EC05D /* EasyRide_DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyRide_DriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6FC7951D2E41E200006EC05D /* Exceptions for "EasyRide_Driver" folder in "EasyRide_Driver" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/AccessibilityTests.swift,
+				Tests/AdaptiveLayoutTests.swift,
+				Tests/AuthenticationViewModelTests.swift,
+				Tests/BookingViewModelTests.swift,
+				Tests/ChatInterfaceTests.swift,
+				Tests/LocalizationTests.swift,
+				Tests/MockAPIService.swift,
+				Tests/OrderTrackingCompilationTest.swift,
+				Tests/OrderTrackingViewModelTests.swift,
+				Tests/OrientationLayoutTests.swift,
+				Tests/ResponsiveLayoutTests.swift,
+				Tests/ResponsiveLayoutUtilsTests.swift,
+				Tests/ServiceSelectionTests.swift,
+				Tests/ServiceSelectionUITests.swift,
+				Tests/TripConfigurationModeTests.swift,
+				Tests/TripConfigurationTests.swift,
+				Tests/TripModificationTests.swift,
+				Tests/ValueAddedServicesTests.swift,
+				Tests/verify_booking_integration.swift,
+				Tests/verify_chat_interface.swift,
+				Tests/verify_service_selection.swift,
+				Tests/VoiceOverSupportTests.swift,
+			);
+			target = 6FC794C52E41E1D0006EC05D /* EasyRide_Driver */;
+		};
+		6FC7951E2E41E200006EC05D /* Exceptions for "EasyRide_Driver" folder in "EasyRide_DriverTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/AccessibilityTests.swift,
+				Tests/AdaptiveLayoutTests.swift,
+				Tests/AuthenticationViewModelTests.swift,
+				Tests/BookingViewModelTests.swift,
+				Tests/ChatInterfaceTests.swift,
+				Tests/LocalizationTests.swift,
+				Tests/MockAPIService.swift,
+				Tests/OrderTrackingCompilationTest.swift,
+				Tests/OrderTrackingViewModelTests.swift,
+				Tests/OrientationLayoutTests.swift,
+				Tests/ResponsiveLayoutTests.swift,
+				Tests/ResponsiveLayoutUtilsTests.swift,
+				Tests/ServiceSelectionTests.swift,
+				Tests/ServiceSelectionUITests.swift,
+				Tests/TripConfigurationModeTests.swift,
+				Tests/TripConfigurationTests.swift,
+				Tests/TripModificationTests.swift,
+				Tests/ValueAddedServicesTests.swift,
+				Tests/verify_booking_integration.swift,
+				Tests/verify_chat_interface.swift,
+				Tests/verify_service_selection.swift,
+				Tests/VoiceOverSupportTests.swift,
+			);
+			target = 6FC794D22E41E1D2006EC05D /* EasyRide_DriverTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6FC794C82E41E1D0006EC05D /* EasyRide_Driver */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6FC7951D2E41E200006EC05D /* Exceptions for "EasyRide_Driver" folder in "EasyRide_Driver" target */,
+				6FC7951E2E41E200006EC05D /* Exceptions for "EasyRide_Driver" folder in "EasyRide_DriverTests" target */,
+			);
+			path = EasyRide_Driver;
+			sourceTree = "<group>";
+		};
+		6FC794D62E41E1D2006EC05D /* EasyRide_DriverTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EasyRide_DriverTests;
+			sourceTree = "<group>";
+		};
+		6FC794E02E41E1D2006EC05D /* EasyRide_DriverUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EasyRide_DriverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FC794C32E41E1D0006EC05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC794D02E41E1D2006EC05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC794DA2E41E1D2006EC05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FC794BD2E41E1D0006EC05D = {
+			isa = PBXGroup;
+			children = (
+				6FC794C82E41E1D0006EC05D /* EasyRide_Driver */,
+				6FC794D62E41E1D2006EC05D /* EasyRide_DriverTests */,
+				6FC794E02E41E1D2006EC05D /* EasyRide_DriverUITests */,
+				6FC794C72E41E1D0006EC05D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FC794C72E41E1D0006EC05D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FC794C62E41E1D0006EC05D /* EasyRide_Driver.app */,
+				6FC794D32E41E1D2006EC05D /* EasyRide_DriverTests.xctest */,
+				6FC794DD2E41E1D2006EC05D /* EasyRide_DriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FC794C52E41E1D0006EC05D /* EasyRide_Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC794E72E41E1D2006EC05D /* Build configuration list for PBXNativeTarget "EasyRide_Driver" */;
+			buildPhases = (
+				6FC794C22E41E1D0006EC05D /* Sources */,
+				6FC794C32E41E1D0006EC05D /* Frameworks */,
+				6FC794C42E41E1D0006EC05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6FC794C82E41E1D0006EC05D /* EasyRide_Driver */,
+			);
+			name = EasyRide_Driver;
+			packageProductDependencies = (
+			);
+			productName = EasyRide_Driver;
+			productReference = 6FC794C62E41E1D0006EC05D /* EasyRide_Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FC794D22E41E1D2006EC05D /* EasyRide_DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC794EA2E41E1D2006EC05D /* Build configuration list for PBXNativeTarget "EasyRide_DriverTests" */;
+			buildPhases = (
+				6FC794CF2E41E1D2006EC05D /* Sources */,
+				6FC794D02E41E1D2006EC05D /* Frameworks */,
+				6FC794D12E41E1D2006EC05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FC794D52E41E1D2006EC05D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6FC794D62E41E1D2006EC05D /* EasyRide_DriverTests */,
+			);
+			name = EasyRide_DriverTests;
+			packageProductDependencies = (
+			);
+			productName = EasyRide_DriverTests;
+			productReference = 6FC794D32E41E1D2006EC05D /* EasyRide_DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FC794DC2E41E1D2006EC05D /* EasyRide_DriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC794ED2E41E1D2006EC05D /* Build configuration list for PBXNativeTarget "EasyRide_DriverUITests" */;
+			buildPhases = (
+				6FC794D92E41E1D2006EC05D /* Sources */,
+				6FC794DA2E41E1D2006EC05D /* Frameworks */,
+				6FC794DB2E41E1D2006EC05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FC794DF2E41E1D2006EC05D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6FC794E02E41E1D2006EC05D /* EasyRide_DriverUITests */,
+			);
+			name = EasyRide_DriverUITests;
+			packageProductDependencies = (
+			);
+			productName = EasyRide_DriverUITests;
+			productReference = 6FC794DD2E41E1D2006EC05D /* EasyRide_DriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FC794BE2E41E1D0006EC05D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					6FC794C52E41E1D0006EC05D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					6FC794D22E41E1D2006EC05D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 6FC794C52E41E1D0006EC05D;
+					};
+					6FC794DC2E41E1D2006EC05D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 6FC794C52E41E1D0006EC05D;
+					};
+				};
+			};
+			buildConfigurationList = 6FC794C12E41E1D0006EC05D /* Build configuration list for PBXProject "EasyRide_Driver" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				es,
+			);
+			mainGroup = 6FC794BD2E41E1D0006EC05D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6FC794C72E41E1D0006EC05D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FC794C52E41E1D0006EC05D /* EasyRide_Driver */,
+				6FC794D22E41E1D2006EC05D /* EasyRide_DriverTests */,
+				6FC794DC2E41E1D2006EC05D /* EasyRide_DriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FC794C42E41E1D0006EC05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC794D12E41E1D2006EC05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC794DB2E41E1D2006EC05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FC794C22E41E1D0006EC05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC794CF2E41E1D2006EC05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC794D92E41E1D2006EC05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FC794D52E41E1D2006EC05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FC794C52E41E1D0006EC05D /* EasyRide_Driver */;
+			targetProxy = 6FC794D42E41E1D2006EC05D /* PBXContainerItemProxy */;
+		};
+		6FC794DF2E41E1D2006EC05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FC794C52E41E1D0006EC05D /* EasyRide_Driver */;
+			targetProxy = 6FC794DE2E41E1D2006EC05D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FC794E52E41E1D2006EC05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KSGXNV23HN;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FC794E62E41E1D2006EC05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KSGXNV23HN;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FC794E82E41E1D2006EC05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KSGXNV23HN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timyu.EasyRide-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FC794E92E41E1D2006EC05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KSGXNV23HN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timyu.EasyRide-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FC794EB2E41E1D2006EC05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KSGXNV23HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timyu.EasyRide-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRide_Driver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EasyRide_Driver";
+			};
+			name = Debug;
+		};
+		6FC794EC2E41E1D2006EC05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KSGXNV23HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timyu.EasyRide-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRide_Driver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EasyRide_Driver";
+			};
+			name = Release;
+		};
+		6FC794EE2E41E1D2006EC05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KSGXNV23HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timyu.EasyRide-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyRide_Driver;
+			};
+			name = Debug;
+		};
+		6FC794EF2E41E1D2006EC05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KSGXNV23HN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.timyu.EasyRide-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyRide_Driver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FC794C12E41E1D0006EC05D /* Build configuration list for PBXProject "EasyRide_Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC794E52E41E1D2006EC05D /* Debug */,
+				6FC794E62E41E1D2006EC05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FC794E72E41E1D2006EC05D /* Build configuration list for PBXNativeTarget "EasyRide_Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC794E82E41E1D2006EC05D /* Debug */,
+				6FC794E92E41E1D2006EC05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FC794EA2E41E1D2006EC05D /* Build configuration list for PBXNativeTarget "EasyRide_DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC794EB2E41E1D2006EC05D /* Debug */,
+				6FC794EC2E41E1D2006EC05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FC794ED2E41E1D2006EC05D /* Build configuration list for PBXNativeTarget "EasyRide_DriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC794EE2E41E1D2006EC05D /* Debug */,
+				6FC794EF2E41E1D2006EC05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FC794BE2E41E1D0006EC05D /* Project object */;
+}
